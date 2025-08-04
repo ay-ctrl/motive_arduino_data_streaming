@@ -108,7 +108,8 @@ if __name__ == "__main__":
     # Veri çerçevesi geldiğinde çalışacak fonksiyonlardan biri (aktif olan)
     streaming_client.on_data_frame_received_event.handlers.append(receive_and_send_data)
 
-    # Alternatif olarak aşağıdakileri kullanabilirsin:
+    # Alternatif olarak aşağıdakileri kullanabilirsin, burada parametre olarak hangi fonksiyonu çağırırsak aslında o fonksiyon her
+    # yeni veri çerçevesi (data_frame) geldiğinde çalışır.
     # streaming_client.on_data_frame_received_event.handlers.append(receive_labeled_marker_frame)
     # streaming_client.on_data_frame_received_event.handlers.append(send_real_time_data)
 
