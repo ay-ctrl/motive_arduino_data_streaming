@@ -1,12 +1,11 @@
-**OptiTrack ile Gerçek Zamanlı Konum Aktarımı**
+**Real-Time Position Transfer with OptiTrack**
 
-Bu proje, OptiTrack hareket izleme sistemi üzerinden alınan konum verilerini Arduino’ya ve oradan da Bluetooth bağlantısı ile başka bir Arduino’ya gerçek zamanlı olarak aktarmak amacıyla geliştirilmiştir.
+This project was developed to transfer position data obtained from the OptiTrack motion tracking system to an Arduino, and from there to another Arduino via Bluetooth in real time.
 
-Sistemin temelinde, sahnede tanımlı bir nesnenin pozisyon bilgisi Python ile alınıp, seri port üzerinden Arduino’ya gönderilir. İlk Arduino bu veriyi Bluetooth üzerinden ikinci Arduino’ya iletir. Bu yapı sayesinde mobil veya kablosuz sistemlerde konum verisi paylaşımı mümkün hale gelir.
+At the core of the system, the position information of an object defined in the scene is obtained using Python and sent to the Arduino via the serial port. The first Arduino then transmits this data to the second Arduino over Bluetooth. This setup enables the sharing of position data in mobile or wireless systems.
 
-Sistemi kurmak için OptiTrack ile Gerçek Zamanlı Konum Paylaşımı Kılavuzu dosyasına göz atabilirsiniz.
+To set up the system, you can refer to the Real-Time Position Sharing with OptiTrack Guide file.
 
-Projede, OptiTrack’in resmi NatNet SDK’sını doğrudan kullanmak yerine, topluluk tarafından geliştirilmiş bir Python wrapper tercih edilmiştir.
+In the project, instead of using OptiTrack’s official NatNet SDK directly, a Python wrapper developed by the community was preferred.
 
-🔗 Referans alınan GitHub reposu:
-https://github.com/TimSchneider42/python-natnet-client
+🔗 Reference GitHub repository: https://github.com/TimSchneider42/python-natnet-client
