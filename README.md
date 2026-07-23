@@ -9,3 +9,15 @@ To set up the system, you can refer to the Real-Time Position Sharing with OptiT
 In the project, instead of using OptiTrack’s official NatNet SDK directly, a Python wrapper developed by the community was preferred.
 
 🔗 Reference GitHub repository: https://github.com/TimSchneider42/python-natnet-client
+
+## HC05 Connection schema
+
+![System Architecture](images/schema.png)
+
+## Connected HC05 modules with two arduinos
+
+![System Architecture](images/arduino.png)
+
+## Robot in Motive&Optitrack system
+
+![System Architecture](images/motive.png)
