@@ -10,10 +10,6 @@ In the project, instead of using OptiTrack’s official NatNet SDK directly, a P
 
 🔗 Reference GitHub repository: https://github.com/TimSchneider42/python-natnet-client
 
-## HC05 Connection schema
-
-![System Architecture](images/schema.jpg)
-
 ## Connected HC05 modules with two arduinos
 
 ![System Architecture](images/arduino.jpg)
