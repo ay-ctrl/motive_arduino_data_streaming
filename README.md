@@ -12,12 +12,12 @@ In the project, instead of using OptiTrack’s official NatNet SDK directly, a P
 
 ## HC05 Connection schema
 
-![System Architecture](images/schema.jng)
+![System Architecture](images/schema.jpg)
 
 ## Connected HC05 modules with two arduinos
 
-![System Architecture](images/arduino.jng)
+![System Architecture](images/arduino.jpg)
 
 ## Robot in Motive&Optitrack system
 
-![System Architecture](images/motive.jng)
+![System Architecture](images/motive.jpg)
